@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;800&display=swap');
+
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  background-color: var(--bgcolor);
+}
+:root {
+  --orange: #F5841A;
+  --red: #BB0029;
+  --yellow: #F2E8C6 ;
+  --white: #fff9f9;
+  --black: #03002C;
+  --silver:#C0C0C0;
+  --gold:#d4af37;
+  --bgcolor: #242323;
+  --bgcolor2: rgba(133, 130, 130, 0.137);
+  --bgcolor3: #fcd9672a;
+}
+
+.bg-bgcolor2 {
+  background-color: var(--white);
+}
+
+
+/* HEADER CONTENT */
+.header-content .imghead {
+  height: 200px;
+}
+
+
+/* NAV BAR */
+.navbar {
+  background-color: var(--bgcolor);
+}
+
+.navbar img {
+  height: 60px;
+}
+.nav li a {
+  color: var(--white);
+  margin: auto 5px;
+  font-size: clamp(1.25rem, 0.7292rem + 0.8333vw, 1.5625rem);
+  font-weight: 500;
+}
+
+button i {
+  color: var(--orange);
+  font-size: 30px;
+}
+.navbar-toggler {
+  color: #F5841A;
+}
+
+ul li a:hover {
+background-color: var(--orange);
+}
+
+.nav-link {
+  text-align: end;
+}
+
+
+/* ABOUT US */
+.col-about {
+  padding: 0 2px;
+}
+
+.col-about h1 {
+  /* font-size: clamp(1.875rem, 1.1853rem + 3.4483vw, 3.125rem); */
+  font-size: clamp(2.375rem, 2.0965rem + 1.3924vw, 3.75rem);
+  font-weight: 600;
+  text-align: center;
+}
+
+.col-about h4 {
+  font-size: clamp(1.25rem, 1.0776rem + 0.8621vw, 1.5625rem);
+}
+
+.col-about a {
+  color: var(--white);
+  border: 1px solid var(--orange);
+}
+
+.col-about h4 {
+  padding: 20px 0;
+}
+
+.col-about a:hover {
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  background-color: var(--white);
+}
+
+
+
+
+
+/* SERVICES */
+.service-label {
+  font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
+  font-weight: 600;
+  color: var(--bgcolor);
+}
+
+.card-con {
+  padding: 10px;
+}
+
+.card { 
+  border: 3px solid var(--orange);
+  height: 500px;
+  position: relative;
+  background-color: var(--bgcolor);
+  border-radius: 20px;
+}
+
+.card img {
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body h3 {
+  font-weight: 600;
+  color: var(--white);
+}
+
+.card-body p {
+  font-size: clamp(0.875rem, 0.8393rem + 0.1786vw, 1rem);
+}
+
+.card-body a {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.card-button {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.card-body a:hover {
+  background-color: var(--white);
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+
+/* PACKAGE */
+.package-label {
+  font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
+  font-weight: 600;
+}
+
+.package1, .package2 {
+  height: 600px;
+  position: relative;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+.package1 {
+  border: 3px solid var(--gold);
+  background-color: var(--bgcolor3);
+}
+.package2 {
+  border: 3px solid var(--silver);
+  background-color: var(--bgcolor2);
+}
+
+.package-body .package-less{
+  color: var(--white);
+  font-weight: 600;
+}
+
+.package-body p {
+  color: var(--white);
+  font-size: clamp(0.75rem, 0.6429rem + 0.5357vw, 1.125rem);
+}
+
+.package-body h3 {
+  font-size: clamp(1rem, 0.8929rem + 0.5357vw, 1.375rem);
+}
+
+.package-button1, .package-button2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 15px;
+}
+
+.package-body a:hover {
+  background-color: var(--white);
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.package1 img {
+  height: 100px;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.package2 img {
+  height: 100px;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.package-body h2 {
+  font-size: clamp(1.5625rem, 0.3906rem + 3.75vw, 2.5rem);
+  font-weight: 600;
+}
+
+.package-button1 a, .package-button2 a {
+  width: 150px;
+  font-size: 20px;
+  color:var(--white);
+  margin-top: 5px;
+}
+
+.package-button1 a {
+  background-color: var(--gold);
+}
+
+.package-button2 a {
+  background-color: var(--silver);
+}
+
+
+
+/* BLOGS */
+.blogs-label {
+  font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
+  font-weight: 600;
+  color: var(--bgcolor);
+}
+
+
+.blogs-row {
+  color: var(--white);
+  border: 3px solid var(--orange);
+  background-color: var(--bgcolor);
+  text-align: center;
+  margin: 0 20px 20px 20px;
+}
+
+.blogs-con h2, .blogs-con p{
+  color: var(--white);
+}
+
+.blogs-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+
+.blogs-con h2 {
+  font-size: clamp(1.375rem, 1.1406rem + 0.75vw, 1.5625rem);
+  font-weight: 600;
+ 
+}
+
+.blogs-con p {
+  font-size: 16px;
+}
+
+
+.blogs-con a {
+  color: var(--white);
+  border-color: var(--orange);
+  margin-bottom: 10px;
+}
+
+.blogs-img {
+  padding: 0;
+  margin: 0;
+}
+
+.blogs-con a:hover {
+  background-color: var(--white);
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+
+
+/* Client Reviews */
+.reviews-label {
+  font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
+  font-weight: 600;
+  color: var(--bgcolor);
+}
+
+.reviews-con {
+  padding: 10px;
+  border: 3px solid var(--orange);
+  margin: 10px;
+  background-color: var(--white);
+  border-radius: 20px;
+  height: 320px;
+}
+
+.reviews-con img {
+  border-radius: 50%;
+  width: 40%;
+}
+
+.reviews-body p, .reviews-body h4 {
+  color: var(--bgcolor);
+}
+.reviews-body h4 {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.reviews-text {
+  font-style: italic;
+}
+
+.reviews-text2 p {
+  padding-top: 10px;
+  color: var(--bgcolor);
+  font-size: clamp(1rem, 0.5313rem + 1.5vw, 1.375rem);
+}
+
+
+/* FOOTER */
+.footer-con {
+  padding: 20px;
+}
+
+.footer-text h5{
+  font-size: 15px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.footer-text a {
+  text-decoration: none;
+}
+
+
+.footer-text h5 img {
+  height: 50px;
+}
+
+.footer-text a :hover {
+  color: var(--orange);
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  /* SERVICES */
+  .card {
+    height: auto;
+    position: static;
+  }
+
+  .card-button {
+    position: static;
+    left: 0;
+    transform: translate(0, 0);
+  }
+
+   /* PACKAGE */
+  .package1, .package2 {
+    position: static;
+    height: auto;
+  }
+
+  .package-button1, .package-button2 {
+    position: static;
+    left: 0;
+    transform: translate(0, 0);
+  }
+
+ /* BLOGS */
+
+
+  /* REVIEWS */
+  .reviews-con {
+    height: auto;
+  }
+}
+ 
+
+
+
