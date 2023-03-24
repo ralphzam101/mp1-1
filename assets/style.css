@@ -19,7 +19,7 @@ html, body {
   --black: #03002C;
   --silver:#C0C0C0;
   --gold:#d4af37;
-  --bgcolor: #242323;
+  --bgcolor: #161616;
   --bgcolor2: rgba(133, 130, 130, 0.137);
   --bgcolor3: #fcd9672a;
 }
@@ -41,7 +41,7 @@ html, body {
 }
 
 .navbar img {
-  height: 60px;
+  height: 40px;
 }
 .nav li a {
   color: var(--white);
@@ -77,6 +77,7 @@ background-color: var(--orange);
   font-size: clamp(2.375rem, 2.0965rem + 1.3924vw, 3.75rem);
   font-weight: 600;
   text-align: center;
+  
 }
 
 .col-about h4 {
@@ -107,6 +108,8 @@ background-color: var(--orange);
   font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
   font-weight: 600;
   color: var(--bgcolor);
+  text-shadow: 1px 2px var(--orange);
+  padding: 20px 0 10px 0;
 }
 
 .card-con {
@@ -147,9 +150,9 @@ background-color: var(--orange);
 }
 
 .card-body a:hover {
-  background-color: var(--white);
+  background-color: var(--bgcolor);
   border-color: var(--orange);
-  color: var(--orange);
+  color: var(--white);
 }
 
 
@@ -157,6 +160,8 @@ background-color: var(--orange);
 .package-label {
   font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
   font-weight: 600;
+  text-shadow: 1px 2px var(--orange);
+  padding: 20px 0 10px 0;
 }
 
 .package1, .package2 {
@@ -198,9 +203,9 @@ background-color: var(--orange);
 }
 
 .package-body a:hover {
-  background-color: var(--white);
-  border-color: var(--orange);
-  color: var(--orange);
+  background-position: right center;
+  color: var(--bgcolor);
+  text-decoration: none;
 }
 
 .package1 img {
@@ -228,11 +233,17 @@ background-color: var(--orange);
 }
 
 .package-button1 a {
-  background-color: var(--gold);
+  background-image: linear-gradient(to right, #D1913C 0%, #FFD194  51%, #D1913C  100%);
+  transition: 0.5s;
+  box-shadow: 0 0 5px #eee;
+  background-size: 200% auto;
 }
 
 .package-button2 a {
-  background-color: var(--silver);
+  background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 5px #eee;
 }
 
 
@@ -242,6 +253,8 @@ background-color: var(--orange);
   font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
   font-weight: 600;
   color: var(--bgcolor);
+  text-shadow: 1px 2px var(--orange);
+  padding: 20px 0 10px 0;
 }
 
 
@@ -290,11 +303,10 @@ background-color: var(--orange);
 }
 
 .blogs-con a:hover {
-  background-color: var(--white);
+  background-color: var(--orange);
   border-color: var(--orange);
-  color: var(--orange);
+  color: var(--white);
 }
-
 
 
 /* Client Reviews */
@@ -302,6 +314,7 @@ background-color: var(--orange);
   font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
   font-weight: 600;
   color: var(--bgcolor);
+  text-shadow: 1px 2px var(--orange);
 }
 
 .reviews-con {
@@ -311,6 +324,7 @@ background-color: var(--orange);
   background-color: var(--white);
   border-radius: 20px;
   height: 320px;
+  position: relative;
 }
 
 .reviews-con img {
@@ -331,9 +345,35 @@ background-color: var(--orange);
 }
 
 .reviews-text2 p {
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 0;
   color: var(--bgcolor);
   font-size: clamp(1rem, 0.5313rem + 1.5vw, 1.375rem);
+  font-weight: 500;
+
+}.reviews-text2 span {
+  color: var(--bgcolor);
+  font-size: 16px;
+}
+
+.quotation1 i {
+  color: #161616;
+  font-size: 50px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  padding: 0 5px;
+  background-color: var(--white);
+}
+
+.quotation2 i {
+  color: #161616;
+  font-size: 50px;
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  padding: 0 5px;
+  background-color: var(--white);
 }
 
 
@@ -357,9 +397,36 @@ background-color: var(--orange);
   height: 50px;
 }
 
+.footer-text2 h5 {
+  font-size: 15px;
+  font-weight: 200;
+  
+}
+
+.footer-text2 a {
+  text-decoration: none;
+  color: var(--white);
+}
+
 .footer-text a :hover {
   color: var(--orange);
 }
+
+.footer-text2 h5 :hover {
+  color: var(--orange);
+}
+
+.btn-message {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.btn-message:hover {
+  background-color: var(--bgcolor);
+  border: 1px solid var(--orange);
+}
+
+
 
 
 
@@ -401,5 +468,9 @@ background-color: var(--orange);
 }
  
 
+
+
+         
+         
 
 
