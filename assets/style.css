@@ -12,7 +12,7 @@ html, body {
   background-color: var(--bgcolor);
 }
 :root {
-  --orange: #F5841A;
+  --orange: #f37908;
   --red: #BB0029;
   --yellow: #F2E8C6 ;
   --white: #fff9f9;
