@@ -238,7 +238,7 @@ background-color: var(--orange);
 }
 
 .package-body h3 {
-  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+  font-size: clamp(0.9375rem, 0.7589rem + 0.8929vw, 1.5625rem);
 }
 
 .package-button1 a, .package-button2 a {
