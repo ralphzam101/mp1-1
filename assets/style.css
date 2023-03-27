@@ -79,6 +79,7 @@ background-color: var(--orange);
 .hero-content {
   text-align: center;
   margin-bottom: 20px;
+  padding: 3rem 1rem;
 }
 .col-hero img {
   height: 100%;
@@ -408,14 +409,20 @@ background-color: var(--orange);
 }
 
 .message-con span {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   padding: 0;
   color: var(--bgcolor);
 }
 
+.message-con span i {
+  color: var(--bgcolor);
+  padding: 0 10px;
+  font-size: 30px;
+}
+
 .form-email, .form-message {
-padding-bottom: .5rem;
+  padding-bottom: .5rem;
 }
 
 .form-email label, .form-message label {
@@ -423,7 +430,6 @@ padding-bottom: .5rem;
 }  
 
 textarea {
-  color: var(--bgcolor);
   padding: 10px;
   width: 100%;
   border-radius: 10px;
@@ -433,8 +439,6 @@ textarea {
 .form-control {
   border-radius: 10px 0 0 10px;
   border: 2px solid var(--orange);
-  outline: none;
- 
 }
 
 .btn-message {
@@ -450,7 +454,7 @@ textarea {
 }
 
 .form-control:focus {
-  border-color: var(--orange);
+  border-color: var(--bgcolor);
   overflow: var(--bgcolor);
   box-shadow: none;
 }
@@ -459,13 +463,10 @@ textarea {
  display: flex;
 }
 
-.form-button:focus {
-  border: 2px solid var(--bgcolor);
-}  
-
 /* FOOTER */
+
 .footer-con {
-  padding: 20px;
+  padding: 20px 25px 20px 25px;
 }
 
 .footer-text h5{
