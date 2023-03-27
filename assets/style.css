@@ -29,7 +29,6 @@ html, body {
 
 .row {
   justify-content: center;
-  
 }
 
 
@@ -84,7 +83,6 @@ background-color: var(--orange);
 .col-hero img {
   height: 100%;
   width: 100%;
- 
 }
 
 .col-hero h1 {
@@ -265,7 +263,6 @@ background-color: var(--orange);
 }
 
 
-
 /* BLOGS */
 .blogs-label {
   font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
@@ -323,7 +320,6 @@ background-color: var(--orange);
   color: var(--white);
 }
 
-
 /* Client Reviews */
 .reviews-label {
   font-size: clamp(2.5rem, 0.9375rem + 5vw, 3.75rem);
@@ -374,6 +370,7 @@ background-color: var(--orange);
   font-size: clamp(1rem, 0.5313rem + 1.5vw, 1.375rem);
   font-weight: 500;
 }
+
 .reviews-text2 span {
   color: var(--bgcolor);
   font-size: 16px;
@@ -466,10 +463,6 @@ textarea {
   border: 2px solid var(--bgcolor);
 }  
 
-
-
-
-
 /* FOOTER */
 .footer-con {
   padding: 20px;
@@ -506,7 +499,6 @@ textarea {
 .footer-text2 h5 :hover {
   color: var(--orange);
 }
-
 
 
 @media only screen and (max-width: 768px) {
